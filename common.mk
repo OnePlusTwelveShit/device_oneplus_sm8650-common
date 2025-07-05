@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usbv2.default \
-    libagmmixer \
     libagm_compress_plugin \
     libagm_mixer_plugin \
     libagm_pcm_plugin \
@@ -58,7 +57,6 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libvolumelistener \
-    sound_trigger.primary.pineapple \
     vendor.qti.hardware.AGMIPC@1.0-impl
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8650/audio/primary-hal
