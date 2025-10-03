@@ -27,11 +27,13 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 
 # Alert slider
-ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
     KeyHandler \
     tri-state-key-calibrate
-endif
+    
+PRODUCT_PACKAGES += \
+    OPlusSystemUIOverlay \
+    OPlusAlertSliderOverlay
 
 # Audio
 PRODUCT_PACKAGES += \
