@@ -5,7 +5,6 @@ arm_smmu.ko
 bam_dma.ko
 bcl_pmic5.ko
 bcl_soc.ko
-bhs-irq-controller.ko
 boot_stats.ko
 bwmon.ko
 bwprof.ko
@@ -91,7 +90,6 @@ gunyah_qcom.ko
 hdcp_qseecom_dlkm.ko
 health_monitor.ko
 heap_mem_ext_v01.ko
-hung_task_enh.ko
 hvc_gunyah.ko
 hwkm.ko
 hwmon.ko
@@ -102,6 +100,7 @@ icc-debug.ko
 icc-rpmh.ko
 icc-test.ko
 iommu-logger.ko
+kernel_fb.ko
 leds-qpnp-vibrator-ldo.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
@@ -130,7 +129,6 @@ msm_hw_fence.ko
 msm_lmh_dcvs.ko
 msm_memshare.ko
 msm-mmrm.ko
-msm_performance.ko
 msm_qmp.ko
 msm_sharedmem.ko
 msm_show_epoch.ko
@@ -249,7 +247,6 @@ repeater-qti-pmic-eusb2.ko
 rpmh-regulator.ko
 rproc_qcom_common.ko
 rtc-pm8xxx.ko
-sched-walt.ko
 sdhci-msm.ko
 secure_buffer.ko
 sg.ko
@@ -258,7 +255,6 @@ slimbus.ko
 slim-qcom-ngd-ctrl.ko
 smcinvoke_dlkm.ko
 smem.ko
-smp2p.ko
 smp2p_sleepstate.ko
 snd_event_dlkm.ko
 snd-soc-hdmi-codec.ko
@@ -281,6 +277,7 @@ sys_pm_vx.ko
 tcsrcc-pineapple.ko
 thermal_config.ko
 thermal_minidump.ko
+thermal_pa_adc.ko
 thermal_pause.ko
 tmecom-intf.ko
 tms_device_modules.ko
@@ -296,3 +293,4 @@ usb_f_rndis.ko
 videocc-pineapple.ko
 videocc-volcano.ko
 wcd_usbss_i2c.ko
+dcvs_boost.ko

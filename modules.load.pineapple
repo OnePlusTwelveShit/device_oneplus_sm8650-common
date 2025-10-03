@@ -6,7 +6,6 @@ audio_prm_dlkm.ko
 audpkt_ion_dlkm.ko
 bam_dma.ko
 bcl_soc.ko
-bhs-irq-controller.ko
 boot_stats.ko
 bt_fm_slim.ko
 btpower.ko
@@ -74,12 +73,10 @@ hdcp_qseecom_dlkm.ko
 hdmi_dlkm.ko
 health_monitor.ko
 heap_mem_ext_v01.ko
-hung_task_enh.ko
 hvc_gunyah.ko
 hwmon.ko
 i2c-msm-geni.ko
 i3c-master-msm-geni.ko
-icnss2.ko
 ipam.ko
 ipanetm.ko
 ipclite.ko
@@ -118,7 +115,6 @@ msm_kgsl.ko
 msm_lmh_dcvs.ko
 msm_memshare.ko
 msm-mmrm.ko
-msm_performance.ko
 msm_sharedmem.ko
 msm_show_epoch.ko
 msm_show_resume_irq.ko
@@ -147,7 +143,6 @@ q6_dlkm.ko
 q6_notifier_dlkm.ko
 q6_pdr_dlkm.ko
 qca_cld3_kiwi_v2.ko
-qca_cld3_qca6750.ko
 qce50_dlkm.ko
 qcedev-mod_dlkm.ko
 qcom-cpufreq-hw-debug.ko
@@ -216,7 +211,6 @@ slimbus.ko
 slim-qcom-ngd-ctrl.ko
 smcinvoke_dlkm.ko
 smmu_proxy_dlkm.ko
-smp2p.ko
 smp2p_sleepstate.ko
 snd_event_dlkm.ko
 snd-soc-hdmi-codec.ko
@@ -242,6 +236,7 @@ synx-driver.ko
 sysmon_subsystem_stats.ko
 sys_pm_vx.ko
 thermal_config.ko
+thermal_pa_adc.ko
 tms_device_modules.ko
 tz_log_dlkm.ko
 ubwcp.ko
@@ -267,3 +262,4 @@ wcd_usbss_i2c.ko
 wlan_firmware_service.ko
 wsa883x_dlkm.ko
 wsa884x_dlkm.ko
+dcvs_boost.ko

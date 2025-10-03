@@ -93,7 +93,6 @@ qrtr.ko
 qti-regmap-debugfs.ko
 rpmh-regulator.ko
 rtc-pm8xxx.ko
-sched-walt.ko
 sdhci-msm.ko
 secure_buffer.ko
 smem.ko
@@ -107,3 +106,5 @@ tmecom-intf.ko
 ufshcd-crypto-qti.ko
 ufs_qcom.ko
 videocc-pineapple.ko
+dcvs_boost.ko
+
